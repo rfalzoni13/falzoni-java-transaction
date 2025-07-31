@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>br.com.falzoni</groupId>
 	<artifactId>falzoni-java-transaction</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>falzoni-java-transaction</name>
-	<description>Projeto de demonstração de transações em. Java</description>
+	<description>Projeto de demonstração de transações em Java</description>
 	<url/>
 	<licenses>
 		<license/>
