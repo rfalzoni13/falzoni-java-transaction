@@ -70,10 +70,10 @@ Calcula e retorna estatísticas das transações registradas nos últimos 60 seg
 Para executar o projeto, abra o mesmo na IDE e clique em Run ao selecionar o arquivo main (FalzoniJavaTransactionApplication).
 
 ## Execução via VS Code/Terminal com Maven CLI
-No VS Code, abra um terminal. Na raiz do projeto e digite `mvn spring-boot:run`.
+No VS Code, abra um terminal. Na raiz do projeto e digite `mvnw spring-boot:run`.
 
 ## Docker
-Para executar no Docker, execute o comando `docker build -t <nome-da-imagem> .`. Após a montagem da imagem, digite `docker run -p 8080:8080 <nome-da-imagem>`.
+Para executar no Docker, primeiramente deve-se executar o comando `mvnw clean package` para gerar o arquivo .jar, em seguida execute o comando `docker build -t <nome-da-imagem> .`. Após a montagem da imagem, digite `docker run -p 8080:8080 <nome-da-imagem>`.
 
 ## 🏗️ Arquitetura
 
